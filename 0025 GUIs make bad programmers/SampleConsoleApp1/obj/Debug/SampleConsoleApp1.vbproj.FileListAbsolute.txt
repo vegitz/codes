@@ -1,0 +1,10 @@
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\bin\Debug\SampleConsoleApp1.exe
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\bin\Debug\SampleConsoleApp1.pdb
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\bin\Debug\SampleConsoleApp1.xml
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\obj\Debug\SampleConsoleApp1.vbprojAssemblyReference.cache
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\obj\Debug\SampleConsoleApp1.Resources.resources
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\obj\Debug\SampleConsoleApp1.vbproj.GenerateResource.cache
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\obj\Debug\SampleConsoleApp1.vbproj.CoreCompileInputs.cache
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\obj\Debug\SampleConsoleApp1.exe
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\obj\Debug\SampleConsoleApp1.xml
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleConsoleApp1\obj\Debug\SampleConsoleApp1.pdb

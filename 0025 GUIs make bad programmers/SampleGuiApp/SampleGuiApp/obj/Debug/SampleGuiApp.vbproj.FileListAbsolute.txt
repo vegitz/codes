@@ -1,0 +1,11 @@
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\obj\Debug\SampleGuiApp.vbprojAssemblyReference.cache
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\obj\Debug\SampleGuiApp.Form1.resources
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\obj\Debug\SampleGuiApp.Resources.resources
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\obj\Debug\SampleGuiApp.vbproj.GenerateResource.cache
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\obj\Debug\SampleGuiApp.vbproj.CoreCompileInputs.cache
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\bin\Debug\SampleGuiApp.exe
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\bin\Debug\SampleGuiApp.pdb
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\bin\Debug\SampleGuiApp.xml
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\obj\Debug\SampleGuiApp.exe
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\obj\Debug\SampleGuiApp.xml
+D:\vegitz\codes\codes\0025 GUIs make bad programmers\SampleGuiApp\SampleGuiApp\obj\Debug\SampleGuiApp.pdb

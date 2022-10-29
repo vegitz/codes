@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=App\Project1.vbp
+Project=Lib\SearchEngines.vbp

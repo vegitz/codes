@@ -9,6 +9,10 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Test2()
+    End Sub
+
+    Private Sub Test1()
         Try
             Dim strPassword As String = vbNullString
             Dim validate_password As validation_delegate
@@ -25,8 +29,7 @@ Public Class Form1
     End Sub
 
 
-
-    Private Sub Test2(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub Test2()
         Dim strPassword As String = vbNullString
         Dim password_validators As New List(Of validation_delegate)
         Dim security_suite As New PasswordValidationSuite
@@ -40,14 +43,16 @@ Public Class Form1
             .Add(AddressOf security_suite.MustHaveSpecialCharacter)
         End With
 
-        'strPassword = "donotus3thisp@ssword"
+        strPassword = "donotus3thisp@ssword"
 
 
         Dim validation_errors As New List(Of String)
 
         For Each validate_password As validation_delegate In password_validators
             Try
-                validate_password(strPassword)
+                ' validate_password(strPassword)
+                PerformValidation(validate_password, strPassword)
+
             Catch ex As Exception
                 validation_errors.Add(ex.Message.ToString)
 
@@ -63,7 +68,13 @@ Public Class Form1
 
     End Sub
     
-    
+    Private Sub PerformValidation(ByVal validate As validation_delegate, ByVal password As String)
+        '
+        ' you can create this wrapper so you can use it as a single-call or inside loop
+        '
+        Debug.Print("Validating using {0}", validate.Method.Name)
+        validate(password)
+    End Sub
 End Class
 
 

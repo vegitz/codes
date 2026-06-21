@@ -52,6 +52,7 @@ Attribute VB_Exposed = False
 Option Explicit
 
 Private Sub Command1_Click()
-    Me.Text1.Text = Form2.SelectPlan("(None Selected)")
+    Form2.Show vbModal
+    Me.Text1.Text = Module1.gstrPlan
 End Sub
 

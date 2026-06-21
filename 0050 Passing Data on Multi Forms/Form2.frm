@@ -51,18 +51,8 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 
-Private mstrSelectedPlan    As String
-
-Public Function SelectPlan( _
-    Optional ByVal defaultPlan As String = vbNullString _
-) As String
-    mstrSelectedPlan = defaultPlan
-    Me.Show vbModal
-    SelectPlan = mstrSelectedPlan
-End Function
-
 Private Sub Command1_Click()
-    mstrSelectedPlan = Me.Combo1.Text
+    Module1.gstrPlan = Me.Combo1.Text
     Unload Me
 End Sub
 

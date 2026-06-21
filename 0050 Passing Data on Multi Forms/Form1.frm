@@ -51,7 +51,16 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 
+Private WithEvents mfrmEventSelector As Form2
+Attribute mfrmEventSelector.VB_VarHelpID = -1
+
+
 Private Sub Command1_Click()
-    Me.Text1.Text = Form2.SelectPlan("(None Selected)")
+    Set mfrmEventSelector = New Form2
+    mfrmEventSelector.Show vbModal
 End Sub
 
+Private Sub mfrmEventSelector_PlanSelectedEvent( _
+ByVal event_id As String)
+    Me.Text1.Text = event_id
+End Sub
